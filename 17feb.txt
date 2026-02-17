@@ -1,3 +1,6 @@
 i implimented the continue with free trial on my project its a simple feture like a aded a new feild isInfreetrial to monitor it 
 
 jsut learned some basic commands in git this is for test 
+
+
+3rd push fixed the isue 
