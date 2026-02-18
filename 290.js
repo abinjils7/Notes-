@@ -2,18 +2,20 @@ let pattern = "abba";
 let s = "dog cat cat dog";
 
 var wordPattern = function (pattern, s) {
-  const words = s.split(" ");
+  let words = s.split(" "); 
+  // console.log(words) this will split the string s to array of words [ 'dog', 'cat', 'cat', 'dog' ]
 
   if (pattern.length !== words.length) {
-    return false;
+    return false; 
+    //check if the both have different lenght return false wee need the exact patern length
   }
 
-  const mapCharToWord = new Map();
+  const mapCharToWord = new Map(); 
   const mapWordToChar = new Map();
 
   for (let i = 0; i < pattern.length; i++) {
     let char = pattern[i];
-    // console.log(char); 
+    // console.log(char);
     let word = words[i];
     // console.log(word)
     if (mapCharToWord.has(char)) {
@@ -35,4 +37,4 @@ var wordPattern = function (pattern, s) {
   return true;
 };
 
-wordPattern(pattern,s)
+console.log(wordPattern(pattern, s));
