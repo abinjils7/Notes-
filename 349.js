@@ -13,7 +13,7 @@ var intersection = function (nums1, nums2) {
   for (let num of nums2) {
     if (map.has(num)) {
       comon.push(num);
-      map.delete(num);
+      map.delete(num):
     }
   }
   console.log(comon);
