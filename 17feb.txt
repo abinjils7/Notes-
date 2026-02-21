@@ -4,3 +4,6 @@ jsut learned some basic commands in git this is for test
 
 
 3rd push fixed the isue 
+
+
+somthing to push
